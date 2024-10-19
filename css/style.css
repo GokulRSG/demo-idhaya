@@ -1,0 +1,92 @@
+*{
+margin: 0;
+border: none;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.nav-bar{
+    margin:20px 10%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: block;
+    margin: 0 10px;
+}
+.nav-bar ul li a:hover{
+    color: red;
+}
+.nav-bar ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.container .row{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.container .row .col-1{
+    width: 60%;
+}
+.container .row .col-2{
+    width: 35%;
+}
+.container .row .col-2 img{
+    width: 100%;
+    margin-right: 10px;
+    margin-left: -30%;
+    margin-top: -120px;
+}
+
+.container .col-1 h1{
+    font-size: 90px;
+}
+.container .col-1 span{
+    color: red;
+}
+.container .col-1 h2{
+    font-size: 50px;
+}
+
+.container .col-1 p{
+    font-size: 25px;
+}
+.logo span{
+    color: red;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+.container .row .col-1 input{
+    border-radius: 2px;
+    margin: 15px 0 15px 0;
+    background: linear-gradient(90deg, #bdf005 0%, rgb(230, 226, 21) 35%, #ffd900 100%);
+    font-size: large;
+    border: none;
+    height: 60px;
+    width: 120px;
+}
+
+.nav-bar ul li a::after{
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    position:absolute;
+}
